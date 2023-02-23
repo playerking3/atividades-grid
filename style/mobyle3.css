@@ -1,0 +1,12 @@
+@media(max-width: 500px){
+    .grid{
+        grid-template-rows: 2fr,3fr,2fr;
+        grid-template-columns: auto;
+    }
+}
+@media(max-width: 300px){
+    .mb{
+        grid-template-rows: 6fr,5fr;
+        grid-template-columns: auto;
+    }
+}

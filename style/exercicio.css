@@ -9,11 +9,11 @@
     height: 100vh;
     width: 100%;
     gap: 20px;
-    margin: 20px;
+    padding: 20px;
 }
 
 .cima {
-    background-color: blue;
+    background-color: #19A1BF;
 }
 
 .baixo {
@@ -23,9 +23,9 @@
 }
 
 .baixo-esquerda {
-    background-color:red;
+    background-color:#D33838;
 }
 
 .baixo-direita{
-    background-color:green;
+    background-color:#1CAA44;
 }

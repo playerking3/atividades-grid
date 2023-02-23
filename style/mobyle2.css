@@ -1,0 +1,17 @@
+@media(max-width: 500px){
+    .meio{
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: auto;
+    }
+    .baixo{
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: auto;
+    }
+}
+
+@media(max-width: 300px){
+    .grid{
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: auto;
+    }
+}
