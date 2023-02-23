@@ -1,0 +1,26 @@
+@media(max-width: 500px){
+    .mid{
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: auto;
+    }
+}
+@media(max-width: 300px){
+    .grid{
+        grid-template-rows: 1fr 4fr;
+        grid-template-columns: auto;
+    }
+}
+@media(max-width: 200px){
+    .cima{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: auto;
+    }
+    .mdc{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto;
+    }
+    .baixo{
+        grid-template-rows: 3fr 1fr;
+        grid-template-columns: auto;
+    }
+}
