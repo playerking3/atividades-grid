@@ -1,0 +1,13 @@
+@media(max-width: 500px){
+	.base{
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: auto;
+	}
+}
+
+@media(max-width: 300px){
+	.et, .db{
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: auto;
+	}
+}

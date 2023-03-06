@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.grid{
+	display: grid;
+	grid-template-rows: 1fr 4fr;
+	height: 100vh;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.topo{
+	background-color: #19A1BF;
+}
+
+.base{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.esq{
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+	gap: 20px;
+}
+
+.et{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.ete{
+	background-color: #D33838;
+}
+
+.etd, .dois{
+	background-color: #FFE70F;
+}
+
+.eb, .dt{
+	background-color: #1CAA44;
+}
+
+.dir{
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	gap: 20px;
+}
+
+.db{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.dbe{
+	background-color: #410D0D;
+}
+
+.dbd{
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	gap: 20px;
+}
+
+.um{
+	background-color: #D737B4;
+}
+
